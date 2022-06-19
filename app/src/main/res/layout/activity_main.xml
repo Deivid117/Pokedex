@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_GB"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_inicio"
+        android:gravity="top"
+        android:padding="25dp">
+
+        <RelativeLayout
+            android:id="@+id/layout_GB_Gray"
+            android:layout_width="350dp"
+            android:layout_height="290dp"
+            android:background="@drawable/fondo_pantallagb"
+            android:padding="47dp">
+
+            <RelativeLayout
+                android:id="@+id/layout_GB_Green"
+                android:layout_width="350dp"
+                android:layout_height="290dp"
+                android:background="@drawable/fondo_pantallagb_green">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/pokemon_logo"></ImageView>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="by Deivid">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingTop="400dp">
+
+        <Button
+            android:id="@+id/pokemon"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="@drawable/boton_redondo"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="Mostrar \n pokemon"
+            android:textSize="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:paddingTop="380dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/controlador"></ImageView>
+
+        <TextView
+            android:id="@+id/distancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

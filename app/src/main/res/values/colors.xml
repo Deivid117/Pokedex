@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="red_500">#D12F2F</color>
+    <color name="red_700">#B80101</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="boton">#9F122F</color>
+    <color name="pokemon">#EC977C</color>
+    <color name="gameboy">#807E7E</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid
+                android:color="@color/gameboy">
+            </solid>
+            <corners
+                android:topLeftRadius="15dp"
+                android:topRightRadius="15dp"
+                android:bottomLeftRadius="15dp"
+                android:bottomRightRadius="75dp">
+            </corners>
+        </shape>
+    </item>
+</selector>
